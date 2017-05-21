@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Roy's Computer Unit Converter</title>
+  <link rel="stylesheet" href="unitConverter.css">
+
+</head>
+
+<body>
+  <div class="machine">
+    <h1>Welcome!</h1>
+    <ol class="instructions">
+      <li>Write down the number you wish to convert.</li>
+      <li>Be sure that you select two different Unit Types.</li>
+      <li>All numbers will be rounded to five (5) decimal digits.</li>
+    </ol>
+
+    <div id="interface">
+      <label for="num">Insert your number here:</label>
+      <input type="text" id="numIn" placeholder="Write your number here..."/>
+      <br />
+
+      <label for="unitIn">Select de unit Type you've entered:</label>
+      <select name="unitIn" id="unitIn">
+        <option value="2">Binary</option>
+        <option value="8">Octal</option>
+        <option value="10">Decimal</option>
+        <option value="16">Hexadecimal</option>
+      </select>
+      <br />
+
+      <label for="unitOut">Select the unit type you wish to convert to:</label>
+      <select name="unitOut" id="unitOut">
+        <option value="2">Binary</option>
+        <option value="8">Octal</option>
+        <option value="10">Decimal</option>
+        <option value="16">Hexadecimal</option>
+      </select>
+      <br />
+
+      <button id="convert">Convert</button>
+    </div>
+    <br />
+
+    <div id="finish">
+      <textarea id="numOut" rows="8" cols="50" disabled>Your converted number will go here...</textarea>
+    </div>
+
+    <div class="info">
+      <p>
+        Made by <a href="https://github.com/RoyEde" target="_blank">Roy</a>
+        <br />
+        Please show support for <a href="https://freecodecampba.org/" target="_blank">freeCodeCampBA</a>
+        <br />
+        and their people there who are always helping me.
+      </p>
+      <a href="https://github.com/RoyEde" target="_blank">
+        <img class="mePic" src="https://k60.kn3.net/6/4/8/C/4/6/6F3.jpg" alt="Me">
+      </a>
+    </div>
+  </div>
+
+  <script src="unitConverter.js"></script>
+</body>
+
+</html>
