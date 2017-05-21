@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Press+Start+2P');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /*font-family: 'Press Start 2P', cursive;
+  font-size: 0.95em;
+  */
+  font-family: 'Orbitron', sans-serif;
+}
+
+body{
+  background-color: rgb(8, 61, 119);
+}
+
+.machine{
+  background-color: #FFFFFF;
+  margin-top: 5%;
+  margin-left: 18%;
+  margin-right: 18%;
+  padding: 2%;
+  border-radius: 2%;
+}
+
+h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+.instructions{
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+#interface,#finish{
+  line-height: 2em;/*windows Only*/
+  /*line-height: 3em; linux Only*/
+}
+
+#interface{
+  margin-top: 4%;
+}
+
+input, select{
+  margin-top: 0.7%;
+  float: right;
+  padding-left: 1%;
+}
+
+input{
+  width: 50%;
+}
+
+select{
+  width: 15%;
+}
+
+textarea {
+  resize: none;
+  background-color: #FFFFFF;
+  height: 8em;
+  color: #000000;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.88em;
+  line-height: 1.8em;
+}
+
+button, textarea{
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+}
+
+.info {
+  text-align: center;
+  margin-top: 3%;
+  line-height: 1.5em;
+}
+
+.info p a {
+  font-weight: bold;
+  color: blue;
+}
+
+.mePic {
+  margin-top: 5%;
+  width: 100px;
+  height: 100px;
+  border-radius: 35%;
+}
+
+@media screen and (max-Width: 1500px) {
+  select{
+    width: 19%;
+  }
+
+}
+
+@media screen and (max-Width: 1150px) {
+  *{
+    font-size: 0.95em;
+    /*font-size: 0.9em*/
+  }
+
+  .mePic {
+    width: 80px;
+    height: 80px;
+  }
+
+  select{
+    width: 21%;
+  }
+}
+
+@media screen and (max-Width: 915px) {
+  *{
+    font-size: 0.9em;
+    /*font-size: 0.85em*/
+  }
+
+  .mePic {
+    margin-top: 4%;
+    width: 70px;
+    height: 70px;
+  }
+
+  select{
+    width: 23%;
+  }
+}
+
+@media screen and (max-Width: 700px) {
+  *{
+    font-size: 0.85em;
+    /*font-size: 0.80em*/
+  }
+
+  .mePic {
+    margin-top: 3%;
+    width: 65px;
+    height: 65px;
+  }
+
+  select{
+    width: 25%;
+  }
+}
+
+@media screen and (max-Width: 500px) {
+  *{
+    font-size: 0.80em;
+    /*font-size: 0.75em*/
+  }
+
+  .mePic {
+    margin-top: 2.5%;
+    width: 55px;
+    height: 55px;
+  }
+
+  select{
+    width: 28%;
+  }
+}
