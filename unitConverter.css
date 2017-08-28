@@ -9,11 +9,11 @@
   font-family: 'Orbitron', sans-serif;
 }
 
-body{
+body {
   background-color: rgb(8, 61, 119);
 }
 
-.machine{
+.machine {
   background-color: #FFFFFF;
   margin-top: 5%;
   margin-left: 18%;
@@ -22,26 +22,26 @@ body{
   border-radius: 2%;
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 3em;
 }
 
-.instructions{
+.instructions {
   padding-left: 2%;
   padding-top: 2%;
 }
 
-#interface,#finish{
+#interface, #finish {
   line-height: 2em;/*windows Only*/
   /*line-height: 3em; linux Only*/
 }
 
-#interface{
+#interface {
   margin-top: 4%;
 }
 
-input, select{
+input, select {
   margin-top: 0.7%;
   float: right;
   padding-left: 1%;
@@ -51,21 +51,24 @@ input{
   width: 50%;
 }
 
-select{
+select {
   width: 15%;
 }
 
-textarea {
-  resize: none;
-  background-color: #FFFFFF;
-  height: 8em;
+#finish p {
+  text-align: center;
+  height: auto;
   color: #000000;
   font-family: 'Press Start 2P', cursive;
   font-size: 0.88em;
-  line-height: 1.8em;
+  border: solid 1px black;
 }
 
-button, textarea{
+#finish p sub {
+  font-family: 'Press Start 2P', cursive;
+}
+
+button {
   width: 100%;
   text-align: center;
   padding: 1%;
@@ -97,7 +100,7 @@ button, textarea{
 }
 
 @media screen and (max-Width: 1150px) {
-  *{
+  * {
     font-size: 0.95em;
     /*font-size: 0.9em*/
   }
@@ -147,9 +150,8 @@ button, textarea{
 }
 
 @media screen and (max-Width: 500px) {
-  *{
+  * {
     font-size: 0.80em;
-    /*font-size: 0.75em*/
   }
 
   .mePic {
@@ -158,7 +160,7 @@ button, textarea{
     height: 55px;
   }
 
-  select{
+  select {
     width: 28%;
   }
 }
