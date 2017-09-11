@@ -1,5 +1,5 @@
 # computerUnitConverter
-Hello! :wave: 
+Hello! :wave:
 <br>
 This is a simple unit converter app! :smile:
 ### Easy to use:
@@ -11,6 +11,7 @@ Add some  magic and... :boom: You've got yourself your converted unit.
 ---
 
 ## Changes to come:
+- More Precision!! :smile:
 - Style Rework.
 - Custom units (to convert to, and to convert from).
 - Calculator app.
