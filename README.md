@@ -12,9 +12,10 @@ Add some  magic and... :boom: You've got yourself your converted unit.
 
 ## Changes to come:
 - More Precision!! :smile:
-- Style Rework.
-- Custom units (to convert to, and to convert from).
-- Calculator app.
+- Step by step explanation! :nerd_face:
+- Style Rework!
+- Custom units (to convert to, and to convert from)!
+- Calculator app!
 - And more!
 
 ---
